@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;700&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -6,6 +6,7 @@
   --color-brand-accent: #ffbe98; /* Peach Fuzz */
   --color-brand-text: #4a4a4a;
   --font-serif: "Playfair Display", serif;
+  --font-handwriting: "Caveat", cursive;
 }
 
 @layer base {

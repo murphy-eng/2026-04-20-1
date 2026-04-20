@@ -129,9 +129,9 @@ const Hero = () => {
           >
             <div className="aspect-square rounded-[60%_40%_70%_30%/50%_60%_40%_50%] bg-brand-accent/10 absolute -inset-4 animate-pulse" />
             <img 
-              src="https://picsum.photos/seed/doctor-lulu/800/1000" 
+              src="https://lh3.googleusercontent.com/d/1kyZn4EeONNoi7FM0KC2WCdy7CDalRg9b" 
               alt="Dr. Lulu" 
-              className="relative z-10 w-full rounded-[60%_40%_30%_70%/60%_30%_70%_40%] object-cover shadow-2xl grayscale-[20%] hover:grayscale-0 transition-all duration-700"
+              className="relative z-10 w-full rounded-[60%_40%_30%_70%/60%_30%_70%_40%] object-cover shadow-2xl transition-all duration-700"
               referrerPolicy="no-referrer"
             />
             {/* Visual Accents */}
@@ -328,10 +328,10 @@ const DoctorSection = () => {
             className="relative"
           >
              <div className="aspect-[4/5] rounded-[20%] bg-brand-accent/10 absolute -bottom-8 -left-8 w-full h-full" />
-             <img src="https://picsum.photos/seed/doctor-portrait/800/1000" className="relative z-10 rounded-[20%] shadow-2xl" referrerPolicy="no-referrer" />
+             <img src="https://lh3.googleusercontent.com/d/1kyZn4EeONNoi7FM0KC2WCdy7CDalRg9b" className="relative z-10 rounded-[20%] shadow-2xl" referrerPolicy="no-referrer" />
              <div className="absolute -bottom-4 right-4 z-20 bg-white p-6 rounded-2xl shadow-xl max-w-xs border border-brand-accent/10">
-               <p className="italic text-lg font-serif">「當牙齒找到對的位置，笑容也找回自己！」</p>
-               <p className="text-sm text-right mt-2 text-brand-accent">— 呂靖雯醫師</p>
+               <p className="italic text-2xl font-handwriting text-brand-accent">「當牙齒找到對的位置，笑容也找回自己！」</p>
+               <p className="text-sm text-right mt-2 text-brand-text/60">— 呂靖雯醫師</p>
              </div>
           </motion.div>
 
